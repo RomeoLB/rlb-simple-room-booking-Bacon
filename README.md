@@ -27,6 +27,23 @@ As per the Demo video, you should be able to add and remove records from the ser
 
 <img width="743" alt="image" src="https://github.com/user-attachments/assets/380ae11b-2df4-44bc-9728-70b622370bda" />
 
+### Publish BrightAuthor:Connected (BACon) presentation for room booking Application
+
+In the Name-selector-app-BAcon folder, open the "booking-screen.html" file and change the value of the jsonUrl variable so it matches the IP address of your Local Brightsign server
+
+<img width="773" alt="image" src="https://github.com/user-attachments/assets/014bd0dc-7255-4bd0-b732-5b93146befda" />
+
+Launch BACon and open the "Room-booking-screen.bpfx" file and link all the files in the folder when prompted to do so by BACon.
+
+Publish the presentation to a player that is connected to a touch screen or to one of the Brightsign built-in screen that are touch capable.
+
+### How to select a new name/value from the Brightsign server and display it on another Brightsign device/player?
+
+As per the video demo in this Readme file, leave your finger pressed down in the top right corner of the screen for 5+ seconds and this should display the dropdown menu with the latest version of the records/name list. Once the dropdown menu is displayed you should be able to select a new name/value to be displayed accross the screen.
+
+Please note that the touch area that allows to display the dropdown list for name/value selection is only 200x200 pixels.
+
+<img width="962" alt="image" src="https://github.com/user-attachments/assets/4c84cb74-170b-42da-b376-fb31266f40e7" />
 
 
 
